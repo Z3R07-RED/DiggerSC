@@ -1,7 +1,8 @@
 ## Author : Z3R07-RED
 ## Version: 1.0.0
 
-*****DiggerSC** It is a very powerful search engine and file collector. Find even the most hidden and protected files.
+*****DiggerSC** It is a very powerful search engine and file collector. 
+Find even the most hidden and protected files.
 
 Previous requirements:
 ======
@@ -33,10 +34,7 @@ USAGE:
     style="float: left; margin-right: 10px;" />
 </p>
 
-The tool has 2 cleaning modes:
-
-* DELETE ALL OBSOLETE FILES
-* ANALYZE
+* Select the directories.
 
 <p align="center">
 <img src="CS07/image/digger.jpg"

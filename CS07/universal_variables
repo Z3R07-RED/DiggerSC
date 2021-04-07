@@ -1,0 +1,15 @@
+# This file contains universal variable definitions.
+program_name="DiggerSC"
+making="Mar 18 2021"
+author="Z3R07-RED"
+version="1.0.0"
+PWD=$(pwd)
+#Directory
+log_directory="logs"
+tmp_directory="tmp"
+config_directory=".config"
+CS07="CS07"
+#Files
+colors="${CS07}/colors"
+
+#Coded by Club Secreto 07

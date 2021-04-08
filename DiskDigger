@@ -631,7 +631,14 @@ done
 
 if [[ "$COMPRESS" == "ON" ]]; then
     FOUNDDBASENAME=$(basename "$FOUNDD" 2>/dev/null)
-    zip -r "$FOUNDDBASENAME.zip" "$FOUNDD" 2>/dev/null
+    DIRECTORYI=`pwd`
+    cd "$SAVETODIR" 2>/dev/null
+
+    zip -r "$FOUNDDBASENAME.zip" "$FOUNDDBASENAME" 2>/dev/null
+
+    sleep 1
+    cd "$DIRECTORYI"
+    rm -rf "$FOUNDD" 2>/dev/null
 fi
 
 echo ""

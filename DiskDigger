@@ -703,5 +703,10 @@ if [[ -f "$tmp_directory/file_types.tmp" ]]; then
         done
     fi
 
+    echo "Club Secreto 07"
+    sleep 0.1
+    echo "DiggerSC (c) 2021 by Z3R07-RED"
+    sleep 2
+    echo ""
     inspect_directory
 fi

@@ -1,7 +1,7 @@
 ## Author : Z3R07-RED
 ## Version: 1.0.0
 
-*****DiggerSC** It is a very powerful search engine and file collector. 
+**DiggerSC** It is a very powerful search engine and file collector.
 Find even the most hidden and protected files.
 
 Previous requirements:
